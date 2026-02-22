@@ -4,42 +4,42 @@ Business Case:
 
 The objective was to analyze transactional sales data from a pizza business generating $818K in annual revenue to answer key operational questions:
 
-When are peak ordering hours and high-demand days?
-Which pizza categories and sizes drive the most revenue?
-Are there underperforming products impacting growth?
-How can pricing, inventory, and staffing decisions be optimized?
+1) When are peak ordering hours and high-demand days?
+2) Which pizza categories and sizes drive the most revenue?
+3) Are there underperforming products impacting growth?
+4) How can pricing, inventory, and staffing decisions be optimized?
 
 The goal was to transform raw order-level data into a decision-support dashboard for revenue optimization and operational planning.
 
 Analytical Approach:
 
 Data Modeling:
-Designed a Snowflake schema to ensure scalable relationships between orders, pizzas, categories, and time dimensions.
+* Designed a Snowflake schema to ensure scalable relationships between orders, pizzas, categories, and time dimensions.
 
 Data Preparation (ETL):
-Cleaned and transformed data using Power Query to standardize dates, categories, and pricing fields.
+* Cleaned and transformed data using Power Query to standardize dates, categories, and pricing fields.
 
 KPI Development (DAX):
-Built key metrics, including:
+* Built key metrics, including:
 
-Total Revenue ($818K)
-Average Order Value ($39)
-Revenue per Pizza ($17)
-Growth %
-Peak Hour Orders
+1) Total Revenue ($818K)
+2) Average Order Value ($39)
+3) Revenue per Pizza ($17)
+4) Growth %
+5)cPeak Hour Orders
 
 Segmentation Analysis:
-Analyzed performance by:
+* Analyzed performance by:
 
-Hour of day
-Day of week
-Month
-Category (Classic, Supreme, Chicken, Veggie)
-Size (L, M, S, XL)
+1) Hour of day
+2) Day of week
+3) Month
+4) Category (Classic, Supreme, Chicken, Veggie)
+5) Size (L, M, S, XL)
 
 Security Implementation:
 
-Implemented Row-Level Security (RLS) to enable role-based insights.
+* Implemented Row-Level Security (RLS) to enable role-based insights.
 
 Key Insights: 
 
