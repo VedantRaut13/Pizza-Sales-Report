@@ -14,15 +14,12 @@ The goal was to transform raw order-level data into a decision-support dashboard
 Analytical Approach:
 
 Data Modeling:
-
 Designed a Snowflake schema to ensure scalable relationships between orders, pizzas, categories, and time dimensions.
 
 Data Preparation (ETL):
-
 Cleaned and transformed data using Power Query to standardize dates, categories, and pricing fields.
 
 KPI Development (DAX):
-
 Built key metrics, including:
 
 Total Revenue ($818K)
@@ -32,7 +29,6 @@ Growth %
 Peak Hour Orders
 
 Segmentation Analysis:
-
 Analyzed performance by:
 
 Hour of day
@@ -47,16 +43,24 @@ Implemented Row-Level Security (RLS) to enable role-based insights.
 
 Key Insights: 
 
-Peak demand occurs during evening hours and weekends.
-Large-sized pizzas generate the highest revenue contribution.
-The classic category leads total revenue contribution.
-Some SKUs show high order frequency but low revenue efficiency.
-Growth rate indicates short-term decline, signaling an optimization opportunity.
+1) Peak demand occurs during evening hours and weekends.
+2) Large-sized pizzas generate the highest revenue contribution.
+3) The classic category leads total revenue contribution.
+4) Some SKUs show high order frequency but low revenue efficiency.
+5) Growth rate indicates short-term decline, signaling an optimization opportunity.
 
 Impact & Business Value :
 
-Enabled data-driven staffing decisions based on peak-hour analysis.
-Identified high-revenue categories for marketing focus.
-Highlighted low-performing products for pricing or bundling strategy.
-Provided a centralized executive dashboard for KPI monitoring.
-Designed a scalable reporting framework that can support multi-branch expansion.
+1) Enabled data-driven staffing decisions based on peak-hour analysis.
+2) Identified high-revenue categories for marketing focus.
+3) Highlighted low-performing products for pricing or bundling strategy.
+4) Provided a centralized executive dashboard for KPI monitoring.
+5) Designed a scalable reporting framework that can support multi-branch expansion.
+
+<img width="1281" height="718" alt="Screenshot 2026-02-15 171158" src="https://github.com/user-attachments/assets/0f3eb502-d8f8-4dd4-a0c2-3dbb1ef062b5" />
+<img width="1325" height="731" alt="Screenshot 2026-02-15 171305" src="https://github.com/user-attachments/assets/23c41785-f14f-4dae-bbd3-49de00c18bfb" />
+<img width="1308" height="735" alt="Screenshot 2026-02-15 171334" src="https://github.com/user-attachments/assets/c82b0748-1778-4f87-b096-a871a215ed14" />
+<img width="1310" height="726" alt="Screenshot 2026-02-15 171353" src="https://github.com/user-attachments/assets/940e771b-f301-4351-bc71-d70469d5c3f9" />
+
+
+
